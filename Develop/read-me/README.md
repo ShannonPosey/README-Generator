@@ -33,11 +33,11 @@ undefined
 
 ## License
 
-MIT
+GNU
 
 ## Badges
 
-MIT
+undefined
 
 ## Features
 
@@ -54,4 +54,4 @@ npm run test
 
 ## Questions
 
-Questions about this repository, please contact me at [snp1284kasey@aol.com](mailto:snp1284kasey@aol.com). View more of my work in GitHun at [test](https://github.com/test)
+Questions about this repository, please contact me at [snp1284kasey@aol.com](mailto:snp1284kasey@aol.com). View more of my work in GitHun at [ShannonPosey](https://github.com/ShannonPosey)
