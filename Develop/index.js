@@ -43,7 +43,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "tests",
+        name: "test",
         message: "What command should be use to run tests?",
         default: "npm run test"
     },
@@ -54,7 +54,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "contribute",
+        name: "contributing",
         message: "What does the user need to know about contributing to the repository?"
     },
 ];

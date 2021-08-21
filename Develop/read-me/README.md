@@ -1,7 +1,7 @@
-# tes
+# test
 
 ## Description 
-tes
+this is a test
 
 ## Table of Contents 
 
@@ -25,7 +25,7 @@ npm install
 
 ## Usage
 
-this is atest
+this is a test
 
 ## Credits
 
@@ -37,7 +37,7 @@ MIT
 
 ## Badges
 
-undefined
+MIT
 
 ## Features
 
@@ -45,13 +45,13 @@ undefined
 
 ## Contributing
 
-undefined
+this is atest
 
 ## Tests
  `
-undefined
+npm run test
 `
 
 ## Questions
 
-Questions about this repository, please contact me at [tes](mailto:tes). View more of my work in GitHun at [test](https://github.com/test)
+Questions about this repository, please contact me at [snp1284kasey@aol.com](mailto:snp1284kasey@aol.com). View more of my work in GitHun at [test](https://github.com/test)

@@ -59,7 +59,7 @@ ${data.license}
 
 ## Badges
 
-${data.badges}
+${data.license}
 
 ## Features
 
