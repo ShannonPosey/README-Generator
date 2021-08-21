@@ -1,23 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  "MIT": "[![License: MIT] (https://img.sheields.io/badge/License-MIT-blue)]",
-  "GNU": "[![License: GNU] (https://img.shields.io/badge/License-GNU-green)]",
-  "Boost Software License 1.0":"[![License: BSL 1.0] (https://img.shields.io/badge/License-BoostSoftwareLicense-purple)]",
-  "Mozilla Public License 2.0":"[![License: MPL 2.0] (https://img.shields.io/badge/License-MozillaPublicLicense2.0-orange)]",
-  "Apache License 2.0":"[![License: Apache License 2.0] (https://img.shields.io/badge/License-ApacheLicense2.0-red)]",
-  "Unlicense":"[![License: Unlicense] (https://img.shields.io/badge/License-Unlicense-yellow)]",
-}
+  "MIT"; "[![License: MIT] (https://img.sheields.io/badge/License-MIT-blue.svg)]",
+  "GNU"; "[![License: GNU] (https://img.shields.io/badge/License-GNU-green.svg)]",
+  "Unlicense"; "[![License: Unlicense] (https://img.shields.io/badge/License-Unlicense-yellow.svg)]"
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  "MIT": "[![License: MIT] (https://opensource.org/licenses/MIT)",
-  "GNU": "[![License: GNU] (https://opensource.org/licenses/GPL-3.0)]",
-  "Mozilla Public License 2.0": "[![License: MPL 2.0] (https://opensource.org/licenses/MPL-2.0)]",
-  "Apache License 2.0": "[![License: Apache License 2.0] (https://opensource.org/licenses/Apache-2.0)]"
-  "Boost Software License 1.0": "[![License: BSL 1.0] (https://opensource.org/licenses/BSL-1.0)]"
-  "Unlicense": "[![License: Unlicense] (https://unlicense.org/)]"
+  "MIT"; "[![License: MIT] (https://opensource.org/licenses/MIT)",
+  "GNU"; "[![License: GNU] (https://opensource.org/licenses/GPL-3.0)]",
+  "Unlicense"; "[![License: Unlicense] (https://unlicense.org/)]"
 }
 
 // TODO: Create a function that returns the license section of README
@@ -41,6 +35,7 @@ ${data.description}
 * [Features](#feature)
 * [Contributing](#contributing)
 * [Tests](#test)
+* [Questions](#questions)
 
 ## Installation
 
@@ -75,8 +70,13 @@ ${data.features}
 ${data.contributing}
 
 ## Tests
-
+ \`
 ${data.test}
+\`
+
+## Questions
+
+Questions about this repository, please contact me at [${data.email}](mailto:${data.email}). View more of my work in GitHun at [${data.username}](https://github.com/${data.username})
 `;
 }
 
