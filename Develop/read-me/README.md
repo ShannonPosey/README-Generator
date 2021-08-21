@@ -33,7 +33,7 @@ undefined
 
 ## License
 
-GNU
+MIT
 
 ## Badges
 
@@ -45,7 +45,7 @@ undefined
 
 ## Contributing
 
-this is atest
+this is a test
 
 ## Tests
  `

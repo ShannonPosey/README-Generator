@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(badges) {
   "MIT"; "[![License: MIT] (https://img.sheields.io/badge/License-MIT-blue.svg)]",
   "GNU"; "[![License: GNU] (https://img.shields.io/badge/License-GNU-green.svg)]",
   "Unlicense"; "[![License: Unlicense] (https://img.shields.io/badge/License-Unlicense-yellow.svg)]"
@@ -59,7 +59,7 @@ ${data.license}
 
 ## Badges
 
-${data.renderLicenseBadge}
+${data.badges}
 
 ## Features
 
