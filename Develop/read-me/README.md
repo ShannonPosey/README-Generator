@@ -1,4 +1,4 @@
-# test
+# teset
 
 ## Description 
 this is a test
@@ -25,7 +25,7 @@ npm install
 
 ## Usage
 
-use node.js
+
 
 ## Credits
 
