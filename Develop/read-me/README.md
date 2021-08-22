@@ -1,7 +1,7 @@
 # test
 
 ## Description 
-this is a test
+
 
 ## Table of Contents 
 
@@ -33,13 +33,13 @@ undefined
 
 ## License
 
-This repository is under the licenses of GNU
+This repository is under the licenses of MIT
 
-GNU
+MIT
 
 ## Badges
 
-undefined
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
 
