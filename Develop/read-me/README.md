@@ -33,13 +33,13 @@ undefined
 
 ## License
 
-This repository is under the licenses of MIT
+This repository is under the licenses of GNU
 
-MIT
+GNU
 
 ## Badges
 
-[![License: MIT] (https://img.sheields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+undefined
 
 ## Features
 
