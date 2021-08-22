@@ -46,7 +46,7 @@ ${data.licenseBadgeLinks}
 
 ## Contributing
 
-${data.Contributing}
+${data.contributing}
 
 ## Tests
 

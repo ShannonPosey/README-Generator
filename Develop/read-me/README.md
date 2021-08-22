@@ -23,21 +23,21 @@ npm install
 
 ## Usage
 
-use node.js
+
 
 ## License
 
-This repository is under the licenses of Unlicense
+This repository is under the licenses of GNU AGPLv3
 
-Unlicense
+GNU AGPLv3
 
 ## Badges
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-yellow.svg)](http://unlicense.org/)
+[![License: GNU AGPLv3](https://img.shields.io/badge/License-GNUAGPLv3-blueviolet.svg)](https://https://opensource.org/licenses/AGPL-3.0)
 
 ## Contributing
 
-undefined
+
 
 ## Tests
 

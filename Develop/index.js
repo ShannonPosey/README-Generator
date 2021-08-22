@@ -69,7 +69,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "What licenses should be included in your project",
-        choices: ["MIT", "GNU", "Unlicense"]
+        choices: ["MIT", "GNU AGPLv3", "Unlicense"]
     },
     {
         type: "input",
