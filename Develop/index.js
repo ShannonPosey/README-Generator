@@ -90,44 +90,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "credits",
-        message: "Who collaborator with you on this project? (Please include their GitHub username)"
-    },
-    {
-        type: "confirm",
-        name: "confirmFeatures",
-        message: "Would you like to enter some information about features for this repository?",
-        default: true,
-    },
-    {
-        type: "input",
-        name: "Features",
-        message: "What features would you like the user to know about this repository?",
-        when: ({ confirmFeatures }) => {
-        if (confirmFeatures) {
-          return true;
-        }
-        else {
-          return false;
-        }
-      }
-    },
-    {
-        type: "confirm",
-        name: "confirmContributing",
-        message: "What does the user need to know about contributing to the repository?",
-         when: ({ confirmContributing }) => {
-        if (confirmContributing) {
-          return true;
-        }
-        else {
-          return false;
-        }
-      }
-    },
-    {
-        type: "input",
-        name: "Contributing",
+        name: "contributing",
         message: "What does the user need to know about contributing to the repository?"
     },
 ];

@@ -7,11 +7,9 @@ this is a test
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 * [Badges](#badges)
-* [Features](#Features)
-* [Contributing](#Contributing)
+* [Contributing](#contributing)
 * [Tests](#test)
 * [Questions](#questions)
 
@@ -25,29 +23,21 @@ npm install
 
 ## Usage
 
-
-
-## Credits
-
-
+use node.js
 
 ## License
 
-This repository is under the licenses of GNU
+This repository is under the licenses of Unlicense
 
-GNU
+Unlicense
 
 ## Badges
 
-undefined
-
-## Features
-
-undefined
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-yellow.svg)](http://unlicense.org/)
 
 ## Contributing
 
-
+undefined
 
 ## Tests
 

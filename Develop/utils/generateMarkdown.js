@@ -16,11 +16,9 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 * [Badges](#badges)
-* [Features](#Features)
-* [Contributing](#Contributing)
+* [Contributing](#contributing)
 * [Tests](#test)
 * [Questions](#questions)
 
@@ -36,10 +34,6 @@ ${data.installation}
 
 ${data.usage}
 
-## Credits
-
-${data.credits}
-
 ## License
 
 This repository is under the licenses of ${data.license}
@@ -49,10 +43,6 @@ ${data.license}
 ## Badges
 
 ${data.licenseBadgeLinks}
-
-## Features
-
-${data.Features}
 
 ## Contributing
 
