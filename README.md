@@ -5,7 +5,7 @@ This is a demo to show how to use the README Generator. This is a command-line-d
 
 ### Demonstration
 
-View a complete video demonstration of the application: [Professional README Generator Demo] (https://youtu.be/9uHG8jQ1Fkc)
+View a complete video demonstration of the application: [Professional README Generator Demo](https://youtu.be/9uHG8jQ1Fkc)
 ## Table of Contents 
 
 * [Installation](#installation)
