@@ -11,23 +11,59 @@ const writeFileAsync = util.promisify(fs.writeFile);
 const questions = [
     {
         type: "input",
-        name: "username",
-        message: "What is your GitHub user name?"
+        name: "github",
+        message: "What is your GitHub user name? (Required)",
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            }
+            else {
+                console.log("Please enter your Github username!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "email",
-        message: "What is your email address?"
+        message: "What is your email address? (Required)",
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            }
+            else {
+                console.log("Please enter your email address!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "title",
-        message: "What is the name of your project?"
+        message: "What is the name of your project? (Required)",
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            }
+            else {
+                console.log("Please enter name of your project");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "description",
-        message: "Please provide a brief description of your project"
+        message: "Please provide a brief description of your project (Required)",
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            }
+            else {
+                console.log("Please enter a description of your project");
+                return false;
+            }
+        }
     },
     {
         type: "list",
@@ -54,7 +90,44 @@ const questions = [
     },
     {
         type: "input",
-        name: "contributing",
+        name: "credits",
+        message: "Who collaborator with you on this project? (Please include their GitHub username)"
+    },
+    {
+        type: "confirm",
+        name: "confirmFeatures",
+        message: "Would you like to enter some information about features for this repository?",
+        default: true,
+    },
+    {
+        type: "input",
+        name: "Features",
+        message: "What features would you like the user to know about this repository?",
+        when: ({ confirmFeatures }) => {
+        if (confirmFeatures) {
+          return true;
+        }
+        else {
+          return false;
+        }
+      }
+    },
+    {
+        type: "confirm",
+        name: "confirmContributing",
+        message: "What does the user need to know about contributing to the repository?",
+         when: ({ confirmContributing }) => {
+        if (confirmContributing) {
+          return true;
+        }
+        else {
+          return false;
+        }
+      }
+    },
+    {
+        type: "input",
+        name: "Contributing",
         message: "What does the user need to know about contributing to the repository?"
     },
 ];

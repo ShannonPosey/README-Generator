@@ -1,7 +1,7 @@
 # test
 
 ## Description 
-
+this is a test
 
 ## Table of Contents 
 
@@ -10,8 +10,8 @@
 * [Credits](#credits)
 * [License](#license)
 * [Badges](#badges)
-* [Features](#feature)
-* [Contributing](#contributing)
+* [Features](#Features)
+* [Contributing](#Contributing)
 * [Tests](#test)
 * [Questions](#questions)
 
@@ -25,21 +25,21 @@ npm install
 
 ## Usage
 
-
+use node.js
 
 ## Credits
 
-undefined
+
 
 ## License
 
-This repository is under the licenses of MIT
+This repository is under the licenses of GNU
 
-MIT
+GNU
 
 ## Badges
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+undefined
 
 ## Features
 

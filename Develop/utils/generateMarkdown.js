@@ -19,8 +19,8 @@ ${data.description}
 * [Credits](#credits)
 * [License](#license)
 * [Badges](#badges)
-* [Features](#feature)
-* [Contributing](#contributing)
+* [Features](#Features)
+* [Contributing](#Contributing)
 * [Tests](#test)
 * [Questions](#questions)
 
@@ -52,11 +52,11 @@ ${data.licenseBadgeLinks}
 
 ## Features
 
-${data.features}
+${data.Features}
 
 ## Contributing
 
-${data.contributing}
+${data.Contributing}
 
 ## Tests
 
@@ -68,7 +68,7 @@ ${data.test}
 
 ## Questions
 
-Questions about this repository, please contact me at [${data.email}](mailto:${data.email}). View more of my work in GitHun at [${data.username}](https://github.com/${data.username})
+Questions about this repository, please contact me at [${data.email}](mailto:${data.email}). View more of my work in GitHun at [${data.github}](https://github.com/${data.github})
 `;
 }
 
