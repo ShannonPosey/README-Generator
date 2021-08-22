@@ -48,7 +48,7 @@ ${data.license}
 
 ## Badges
 
-${data.license}
+${data.licenseBadgeLinks}
 
 ## Features
 

@@ -25,7 +25,7 @@ npm install
 
 ## Usage
 
-this is atest
+
 
 ## Credits
 
@@ -39,7 +39,7 @@ MIT
 
 ## Badges
 
-MIT
+[![License: MIT] (https://img.sheields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
 
@@ -47,7 +47,7 @@ undefined
 
 ## Contributing
 
-this is a test
+
 
 ## Tests
 
