@@ -58,7 +58,7 @@ ${data.test}
 
 ## Questions
 
-Questions about this repository, please contact me at [${data.email}](mailto:${data.email}). View more of my work in GitHun at [${data.github}](https://github.com/${data.github})
+Questions about this repository, please contact me at [${data.email}](mailto:${data.email}). View more of my work in GitHub at [${data.github}](https://github.com/${data.github})
 `;
 }
 
