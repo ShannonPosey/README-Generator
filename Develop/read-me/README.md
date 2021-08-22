@@ -25,7 +25,7 @@ npm install
 
 ## Usage
 
-this is a test
+this is atest
 
 ## Credits
 
@@ -33,11 +33,13 @@ undefined
 
 ## License
 
+This repository is under the licenses of MIT
+
 MIT
 
 ## Badges
 
-undefined
+MIT
 
 ## Features
 
@@ -48,6 +50,9 @@ undefined
 this is a test
 
 ## Tests
+
+To run a test, use the following:
+
  `
 npm run test
 `
